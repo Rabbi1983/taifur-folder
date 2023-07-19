@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;600;700;800&display=swap');
+*{
+    box-sizing: border-box;
+    font-family: 'Work Sans';
+
+}
+.nav{
+ 
+    
+ display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav img{
+    height: 50px;
+    object-fit: cover;
+    margin-top: 50px;
+}
+nav p{
+font-weight: 700;
+font-size: 45px;
+}
+.logo{
+  
+    display: flex;
+}
+
+    
+.nav-item{
+ width: 50%;display: flex;justify-content: space-around;align-items: center;
+}
+a{
+    text-decoration: none;font-size: 18px;
+}
+
+.btn1{
+margin-bottom: 60px;height: 5%;
+}
+.banner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;text-align: center;
+}
+h2{
+    font-size: 48px;font-weight: 600;
+}
+h1{
+    font-size: 95px;
+    font-weight: 800;
+    color: #F948B2;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%)
+    background-clip: text;background-clip: text;
+}
+.btn2{
+    padding: 20px 48px;
+    background-color:#F948B2 ;border-radius: 48px;
+}
+.btn3{
+    padding: 20px 48px;
+background: #4EC5F7;
+border-radius: 48px;
+margin-left: 20px;
+}
+.para1{
+    text-align: center;margin-left: 240px;
+}
+.main1{
+    text-align: center;
+}
+.span2{
+    color: #F948B2;
+}
+.main2{
+    display: flex;
+}
+.banner2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;text-align: center;
+}
+@media screen  and (max-width:576px){
+    .banner{
+        flex-direction: column-reverse;
+        text-align: center;
+        }
+    .nav{
+        flex-direction: column;
+        
+        }
+        }
