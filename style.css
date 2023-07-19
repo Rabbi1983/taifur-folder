@@ -97,7 +97,10 @@ position: relative;top: 350px;right: 100px;
    
 }   
 .para2{
-    text-align: center;margin-top: 200px;
+    text-align: center;
+    margin-top: 20px ;
+    margin-left: 200px;
+    
 }
 .button{
     margin-top: 300px;
