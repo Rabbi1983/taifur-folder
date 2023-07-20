@@ -36,8 +36,10 @@ a{
     text-decoration: none;font-size: 18px;
 }
 
+
 .btn1{
-margin-bottom: 60px;height: 5%;
+margin-bottom: 60px;
+width: 50%;border-radius: 10px;padding-bottom: 10px;
 }
 .banner{
     display: flex;
@@ -110,8 +112,12 @@ position: relative;top: 350px;right: 100px;
    
 }
 .btn4{
-    border-radius: 10px;
-    border: none;justify-content: center;width: 300px;
+    border:none;
+    border-radius: 30px;
+    justify-content: center;
+}
+.btn4:hover{
+    border: pink solid;
 }
 .footer{
   background-color: black;
