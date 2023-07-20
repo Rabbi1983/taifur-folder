@@ -76,7 +76,7 @@ margin-left: 20px;
     color: #F948B2;
 }
 .main2{
-    display: flex;
+    display: flex;margin-left: 20px;
 }
 .banner2{
     display: flex;
@@ -124,7 +124,7 @@ position: relative;top: 350px;right: 100px;
   width: 100%;
   color:white;
   align-items: center;
-  height: 500px;
+  height: 500px;margin: 50px;
 }
 .logo1{
   
@@ -132,7 +132,7 @@ position: relative;top: 350px;right: 100px;
 }
 .div5 ul{
     display: flex;
-    justify-content: space-around;padding: 100px;
+    justify-content: space-around;padding-top: 80px;padding-bottom: 30px;
 }
 .div5 ul li{
     list-style: none;
@@ -140,7 +140,13 @@ position: relative;top: 350px;right: 100px;
 .link{
     margin-left: 700px;
 }
-@media screen  and (max-width:576px){
+footer{
+    align-items: center;
+}
+.copy{
+    align-items: center;margin-left: 600px;margin-top: 50px;
+}
+@media screen  and (max-width:992px){
     .banner{
         flex-direction: column-reverse;
         text-align: center;
@@ -148,6 +154,9 @@ position: relative;top: 350px;right: 100px;
     .nav{
         flex-direction: column;
         
+        }
+        .nav-item{
+            flex-direction: column;
         }
         .main2{
             flex-direction: column;
@@ -164,10 +173,48 @@ position: relative;top: 350px;right: 100px;
             flex-direction: column;
         }
         .div5 ul{
-            flex-direction: column;
+            flex-direction: column;padding: 10px;align-items: center;
         }
         .button{
             grid-template-columns: auto;
+        }
+        
+        }
+        
+@media screen  and (main-width:992px){
+    .banner{
+        flex-direction: column-reverse;
+        text-align: center;
+        }
+    .nav{
+        flex-direction: column;
+        
+        }
+        .nav-item{
+            flex-direction: column;
+        }
+        .main2{
+            flex-direction: column;
+        }
+        .banner2{
+            flex-direction: column;
+        }.main2{
+            flex-direction: column;
+        }
+        .banner2{
+            flex-direction: column;
+        }
+        .logo1{
+           align-items: center;
+        }
+        .div5 ul{
+            flex-direction: column;padding: 10px;align-items: center;
+        }
+        .button{
+            grid-template-columns: auto;
+        }
+        .link{
+            align-items: center;
         }
         }
         
